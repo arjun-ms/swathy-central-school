@@ -1,0 +1,84 @@
+body {
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #222;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+  padding: 30px 0;
+  border-top: 5px solid #934b4b;
+  border-bottom: 3px solid #934b4b;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+  gap: 40px;
+  padding: 40px 20px;
+}
+
+.left-column {
+  flex: 2;
+}
+
+.right-column {
+  flex: 1;
+}
+
+h2 {
+  font-family: Arial, sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.6;
+  text-align: justify;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul.courses li,
+ul.nav li {
+  list-style-type: disc;
+  margin-bottom: 5px;
+}
+
+ul.cta li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+.highlight {
+  color: #934b4b;
+}
+
+.see-more {
+  color: #934b4b;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 3px solid #934b4b;
+  color: #555;
+  font-size: 0.9rem;
+}
